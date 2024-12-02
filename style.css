@@ -224,6 +224,7 @@ label {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+   margin-left: 60px;
 }
 #earth{
        height: 500px;
@@ -241,4 +242,17 @@ label {
     font-weight: 550;
     font-family: "Inter", Helvetica, Arial, sans-serif;
     color:#454745 ;
+    
+}
+#s4-btn{
+    background-color: #9fe870;
+    color: #163300;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
