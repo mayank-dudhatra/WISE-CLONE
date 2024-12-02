@@ -1,42 +1,92 @@
-.navbar{
+/* Navbar Styles */
+.navbar {
     display: flex;
-    justify-content: space-evenly;
-    column-gap: 400px;
-    position: fixed;
-    margin-left: 55px;
-    margin-top: 5px;
-}
-.nav-part-1{
-    display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 50px;
     align-items: center;
-    column-gap: 25px;
+}
+.nav-part-1,
+.nav-part-2 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
     font-size: 18px;
-    font-family:"Inter", Helvetica, Arial, sans-serif ;
+    font-family: "Inter", Helvetica, Arial, sans-serif;
     color: #163300;
-    line-height: 24px;
     font-weight: 540;
 }
-#Language{
-   display: flex;
-   align-items: center;
-   column-gap: 5px;
-
-}
-.nav-part-2{
-    display: flex;
-    align-items: center;
-    column-gap: 20px;
-    justify-content: center;
-    font-size: 18px;
-    font-family:"Inter", Helvetica, Arial, sans-serif ;
-    color: #163300;
-    line-height: 24px;
-    font-weight: 540;
-}
-#bgc-green{
+#bgc-green {
     color: #163300;
     border-radius: 20px;
     background-color: #9fe870;
-    padding: 5px;
+    padding: 8px 12px;
+}
+#Language {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* Main Content Styles */
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.content-part-1 {
+    max-width: 50%;
+}
+#cp-para-1 {
+    font-size: clamp(2.5rem, 5vw, 5.375rem);
+    font-weight: 900;
+    font-family: "Wise Sans", "Inter", sans-serif;
+}
+#cp-para-2 {
+    font-size: clamp(1rem, 1.5vw, 1.125rem);
+    line-height: 1.8;
+    color: #454745;
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+}
+#cp-btn {
+    background-color: #9fe870;
+    color: #163300;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+/* Second Content Styles */
+.second-content {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#box-p1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    color: #163300;
+    font-weight: 600;
+}
+#box-p2 {
+    margin-top: 20px;
+    
+    border: 1px solid #9fe870;
+    color: #163300;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 24px;
+    cursor: pointer;
 }
