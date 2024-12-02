@@ -256,3 +256,51 @@ label {
     margin-top: 50px;
     margin-bottom: 30px;
 }
+.section-5{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin-top: 230px;
+
+}
+#s5-para1{
+    font-size: 53px;
+    font-weight: 600;
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+    margin-bottom: 30px;
+}
+#s5-para2{
+    font-size: 19px;
+    letter-spacing: .005em;
+    line-height: 28px;
+    font-weight: 400;
+    color: #454745;
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+}
+#s5-btn{
+    background-color: #9fe870;
+    color: #163300;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+#s5-lock{
+    height: 318px;
+    width: 318px;
+}
+.section-5-1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 90px;
+}
+#d1-para{
+    font-size: 18px;
+    font-weight: 600;
+    color: #454745;
+    font-family: "Inter", Helvetica, Arial, sans-serif;
+}
